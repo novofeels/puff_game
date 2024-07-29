@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43972c696d2ef4f4e8df8776e81dadbc, type: 3}
+  m_Name: Path2_Waypoints
+  m_EditorClassIdentifier: 
+  enemyPrefabs:
+  - {fileID: 1579654891228755577, guid: e4cc9ed3af89edc43855328e7fa38180, type: 3}
+  - {fileID: 1579654891228755577, guid: e4cc9ed3af89edc43855328e7fa38180, type: 3}
+  - {fileID: 1579654891228755577, guid: e4cc9ed3af89edc43855328e7fa38180, type: 3}
+  viewportWaypoints:
+  - {x: 1.1121929, y: 0.8083137}
+  - {x: 0.95065445, y: 0.25019407}
+  - {x: 0.47661597, y: 0.13139063}
+  - {x: 0.6809429, y: 0.6715616}
+  - {x: 0.76315445, y: 1.2236984}
+  moveSpeed: 5
+  spawnRate: 1
+  spawnVariance: 0.5
+  minimumSpawnRate: 0.2
